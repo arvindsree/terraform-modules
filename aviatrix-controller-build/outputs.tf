@@ -36,3 +36,8 @@ output "public_ip_list" {
   value       = aws_eip.controller_eip.*.public_ip
   description = "List of Public IP addresses of all the Aviatrix controllers launched on the same VPC"
 }
+
+output "instance_id" {
+  value       = aws_instance.aviatrixcontroller.*.id
+  description = "List of Instance ID of all the Aviatrix controllers launched on the same VPC"
+}
