@@ -1,5 +1,8 @@
 ## Aviatrix - Terraform Modules
 
+> [!CAUTION]
+> This repository is no longer maintained, as it has been superseded by [terraform-aviatrix-aws-controller](https://github.com/AviatrixSystems/terraform-aviatrix-aws-controller).
+
 ### Description
 These Terraform modules allow you to build Aviatrix Controllers and prepare accounts for connecting to an existing Aviatrix Controller.
 
